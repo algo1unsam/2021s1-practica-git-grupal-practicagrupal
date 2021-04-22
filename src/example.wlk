@@ -1,4 +1,4 @@
-/** First Wollok example */
+/**<3 First Wollok example <3*/
 object wollok {
 	method howAreYou() {
 		return 'otro comentario'
