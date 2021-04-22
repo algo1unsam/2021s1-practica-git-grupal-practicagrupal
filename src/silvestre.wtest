@@ -1,0 +1,23 @@
+import wollok.game.*
+import pepita.*
+import extras.*
+
+describe "Tests de Silvestre" {
+
+	fixture {
+		// El game no se reinicia en cada test: https://github.com/uqbar-project/wollok/issues/1896
+		game.clear()
+	}
+
+	test "si pepita esta en el origen silvestre queda en la posicion minima" {
+		pepita.position(game.origin())
+		assert.equals(game.at(3, 0), silvestre.position())
+	}
+
+	test "si pepita esta pasando el minimo, silvestre esta en el suelo" {
+		pepita.position(game.at(5, 5))
+		assert.equals(game.at(5, 0), silvestre.position())
+	}
+
+}
+
