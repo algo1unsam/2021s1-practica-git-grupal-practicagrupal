@@ -1,7 +1,7 @@
 object wollok {
 
 	method howAreYou() {
-		return 'arreglado'
+		return 123123123123
 	}
 	
 	//HOladdddd
