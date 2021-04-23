@@ -8,7 +8,7 @@ program PepitaGame {
 	game.title("Pepita")
 	game.height(10)
 	game.width(10)
-	game.boardGround("assets/fondo2.jpg")
+	game.boardGround("fondo2.jpg")
 
 	tutorial3.iniciar()
 
