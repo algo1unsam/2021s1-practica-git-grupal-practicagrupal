@@ -6,7 +6,7 @@ object nido {
 
 	var property position = game.at(7, 8)
 
-	method image() = "nido.png"
+	method image() = "assets/nido.png"
 
 	method teEncontro(alguien) {
 		game.say(alguien, "¡¡Ahora a descansar!!")
@@ -22,7 +22,7 @@ object nido {
 
 object silvestre {
 
-	method image() = "silvestre.png"
+	method image() = "assets/silvestre.png"
 
 	method position() = game.at(pepita.position().x().max(3), 0)
 
